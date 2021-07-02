@@ -1,0 +1,354 @@
+.relative {
+  position: relative;
+} 
+.absolute {
+  position: absolute;
+  bottom: 28px;
+  left: 20px;  
+}
+.btn{
+  cursor: pointer;
+}
+.btn:focus{
+box-shadow: none !important;
+}
+.logo{
+	background-color: #22354F;
+}
+.upright{
+	background-color: #353535;
+}
+.user{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.user p{
+ font-size: 14px;
+letter-spacing: 0px;
+color: #ffffff;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.user small,.user span{
+  color: #C6A233;
+  font-size: 14px;
+letter-spacing: 0px;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.left{
+   background-color: #22354F;
+}
+
+.code{
+  margin-top: 20px;
+  width: 205px;
+  height: 36px;
+border-radius: 3px;
+background-color: #ffffff;
+border: 1px solid #cd6868;
+}
+.code button{
+width: 205px;
+height: 36px;
+border-radius: 3px;
+background-color: #ffffff;
+border: 1px solid #cd6868;
+font-size: 12px;
+color: #292929;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.code span{
+  color: #D37A7A;
+}
+.order a{
+    margin-top: 20px;
+  width: 136px;
+height: 36px;
+border-radius: 3px;
+background-color: #cd6868;
+font-size: 13px;
+color: #ffffff;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.appreciation a{
+margin-top: 20px;
+width: 166px;
+height: 36px;
+border-radius: 3px;
+background-color: #fecf37;
+font-size: 12px;
+color: #363636;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+hr{
+  background-color: white;
+}
+.balance{
+  text-align: left;
+  font-size: 14px;
+  width: 220px; 
+}
+.vertical-menu a {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #fdc62b;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  background-color: #22354F;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+.valyuta{
+	background-color: #22354F;
+	 padding-left: 12px;
+}
+.downright{
+  background-color: #ECF0F5;
+}
+.information {
+  line-height: 70px;
+  height: 70px;
+background-color: #f7dfd6;
+border: 1px solid #cd6868;
+  text-align: center;
+}
+.information p {
+	color: #ca3c3c;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tab1{
+padding-top: 10px;
+width: 140px;
+height: 42px;
+border-radius: 4px;
+background-color: #fecf37;
+font-size: 14px;
+letter-spacing: 0px;
+color: #ffffff !important;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.tab2{
+padding-top: 10px;
+width: 140px;
+height: 42px;
+border-radius: 4px;
+background-color: #fecf37;
+font-size: 14px;
+letter-spacing: 0px;
+color: #ffffff !important;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.tab3{
+padding-top: 10px;
+width: 181px;
+height: 42px;
+border-radius: 4px;
+background-color: #cd6868;
+font-size: 14px;
+color: #ffffff !important;
+letter-spacing: 0px;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.tab4{
+padding-top: 10px;
+width: 121px;
+height: 42px;
+border-radius: 4px;
+background-color: rgba(255,90,0,0.7098039215686275);
+font-size: 14px;
+letter-spacing: 0px;
+color: #ffffff !important;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.tab5{
+padding-top: 10px;
+width: 121px;
+height: 42px;
+border-radius: 4px;
+background-color: #5cae7e;
+font-size: 14px;
+letter-spacing: 0px;
+color: #ffffff !important;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.tab6{
+padding-top: 10px;
+width: 121px;
+height: 42px;
+border-radius: 4px;
+background-color: #717171;
+font-size: 14px;
+letter-spacing: 0px;
+color: #ffffff !important;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.container input {
+  position: absolute;
+  opacity: 0;  
+}
+
+.checkmark {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+
+  border:2px solid green;
+}
+
+
+.container input:checked ~ .checkmark {
+  background-color: green;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+th, td{
+  border: 2px solid  red;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+.shirt td{
+  width: 200px;
+}
+.shirt img{
+  height: 190px; 
+  width: 100%;
+}
+.schedule{
+font-size: 14px;
+letter-spacing: 0px;
+color: #000000;
+font-family: "Noto Sans";
+font-weight: 400;
+text-align: center;
+}
+.schedulein{
+font-size: 14px;
+letter-spacing: 0px;
+color: #444444;
+font-family: "Noto Sans";
+font-weight: 400;
+text-align: center;
+}
+
+.deleta th{
+  padding: 0px !important;
+font-size: 14px;
+letter-spacing: 0px;
+color: #000000;
+font-family: "Noto Sans";
+}
+.deletb td{
+padding: 0px !important;
+font-size: 14px;
+letter-spacing: 0px;
+color: #444444;
+font-family: "Noto Sans";
+}
+.payment a{
+width: 154px;
+height: 83px;
+border-radius: 4px;
+background-color: #5cae7e;
+padding-top: 30px;
+font-size: 14px;
+letter-spacing: 0px;
+color: #f7f7f7 !important;
+font-family: "Noto Sans";
+
+}
+.scheduleend{
+ padding-top: 8px !important;
+ padding-bottom: 3px !important;
+  text-align: start;
+  font-size: 14px;
+letter-spacing: 0px;
+color: #23364f;
+font-family: "Noto Sans";
+font-weight: 400;
+}
+.extensive{
+border-radius: 4px;
+background-color: #cd6868;
+font-size: 14px;
+letter-spacing: 0px;
+color: #f7f7f7;
+font-family: "Noto Sans";
+font-weight: 400;
+text-align: center;
+}
+.watch{
+border-radius: 4px;
+background-color: #0c99d8;
+font-size: 14px;
+letter-spacing: 0px;
+color: #f7f7f7;
+font-family: "Noto Sans";
+font-weight: 400;
+text-align: center;
+}
+.bagizle{
+  text-align: start;
+}
+#table {
+  width: 100%;
+  border:0;
+  border-collapse: separate;
+}
+.payment{
+  border:0px !important;
+  background-color: white;
+}
+
+/*Media*/
+@media screen and (max-width: 1237px){
+.absolute {
+  bottom: 44px;
+}
+.user small,.user span{
+
+  font-size: 10px;
+text-align: center;
+}
+
+}
+
